@@ -9,13 +9,13 @@ Use `forEach` to loop over the input array and work with each value.  Push the n
 ------------------------------------------------------------------------------------------------ */
 
 const addOne = (arr) => {
-  let newarr=[];
-  arr.forEach(element => {
-    newarr.push(element+1);
-  });
-  return newarr;
-
+ let newarr=arr.forEach(item)=>{
+   newarr.push(item+1);
+ };
+ return newarr;
 };
+ 
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -26,26 +26,21 @@ Use `forEach` to loop over the input array. Modify each string, and add the upda
 ------------------------------------------------------------------------------------------------ */
 
 const addExclamation = (arr) => {
-  let stringArr=[];
-  arr.forEach(element => {
-    stringArr.push(element + "!");
-  });
-  return stringArr;
+  let newarr=arr.forEach(item)=>{
+    newarr.push=arr+"!";
+  }
+  return newarr;
+ 
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
-
 Write a function named `allUpperCase` that takes an array of strings, and returns a new array of the strings converted to upper case.
-
 Use `forEach` to loop over the input array. The modified strings should each be added into a local array. Return that local array.
 ------------------------------------------------------------------------------------------------ */
 
 const allUpperCase = (arr) => {
-  let arryOfString=[];
-  arr.forEach(element => {
-    arryOfString.push(element.toUpperCase()); });
-  return arryOfString;
+  
 
 };
 
