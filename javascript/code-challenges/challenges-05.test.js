@@ -142,9 +142,13 @@ Note: You must use reduce for this challenge. You may not use the built-in .reve
 ------------------------------------------------------------------------------------------------ */
 
 const reversedString = (str) => {
-  // let newArr=str.reduce((acc,value,i)=>{
-  //   acc=value
-  // },'')
+  let arrayStr = str.split("");
+  let rev = arrayStr.reduce((acc, item) => {
+    acc.unshift(item);
+    return acc;
+  }, []);
+  return rev.join("");
+
 };
 
 /* ------------------------------------------------------------------------------------------------
