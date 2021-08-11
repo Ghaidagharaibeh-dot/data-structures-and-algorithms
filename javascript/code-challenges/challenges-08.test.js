@@ -144,7 +144,14 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
-  
+  let newArr = arr.filter((n) => {
+    if (/\b[A-J]/g.test(n[0])) {
+      return n;
+    } else {
+      return false;
+    }
+  });
+  return newArr;
 
 };
 

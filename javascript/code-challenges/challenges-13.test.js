@@ -7,14 +7,11 @@ Write a function named longestString that takes in an array of strings and retur
 ------------------------------------------------------------------------------------------------ */
 
 const longestString = (arr) => {
-  let newArr= arr.sort((a,b)=>{
-    if (a.split('') > b.split(''))
-    {
-    return -1}
-     else if (a < b){
-          return 1;
-  }});
-  return newArr[0].split('').length;
+  const originalArr = [...arr];
+  const longest = originalArr.sort((a, b) => b.length - a.length);
+  return arr.indexOf(longest[0]);const originalArr = [...arr];
+  const longest = originalArr.sort((a, b) => b.length - a.length);
+  return arr.indexOf(longest[0]);
 };
   
 /* ------------------------------------------------------------------------------------------------
