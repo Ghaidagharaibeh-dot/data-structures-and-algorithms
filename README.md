@@ -23,7 +23,7 @@ To run your tests
 
 | Number	      | The Challenge	 |Challenge Link|
 | ----------- | ----------- | ----------- |
-|1|array-insert-shift |[array-insert-shift](java/Challenge2/README.md)|
-
+|1|array-reverse |[array-reverse](java/Challenge1/README.md)|
+|2|array-insert-shift |[array-insert-shift](java/Challenge2/README.md)|
 
 
