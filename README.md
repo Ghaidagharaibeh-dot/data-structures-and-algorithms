@@ -24,6 +24,8 @@ To run your tests
 | Number	      | The Challenge	 |Challenge Link|
 | ----------- | ----------- | ----------- |
 |1|reverseArray  |[Link](java/Challenge1/README.md)|
+|2|insertShiftArray |[Link](java/Challenge2/README.md)|
+
 
 
 
